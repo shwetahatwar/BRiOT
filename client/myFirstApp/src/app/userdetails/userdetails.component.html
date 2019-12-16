@@ -1,0 +1,31 @@
+<div class="container">
+    <h2>User Details</h2>
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="form">
+        <div class="form-group">
+          <label for="">EmployeeId</label>
+          <input [(ngModel)]="EmployeeId" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">EmployeeName</label>
+          <input [(ngModel)]="EmployeeName" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">EmployeePhone</label>
+            <input [(ngModel)]="EmployeePhone" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="">EmployeeEmail</label>
+            <input [(ngModel)]="EmployeeEmail" type="text" class="form-control">
+          </div>
+        <div class="form-group">
+          
+          <button (click)="onCancel()" class="btn btn-danger" style="margin-left: 10px">Cancel</button>
+         
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  
